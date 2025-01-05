@@ -5,4 +5,9 @@ export class Mesa {
     constuctor(disponibilidade:boolean) {
         this.disponibilidade = disponibilidade;
     }
+     registrar_pedido(pedido: Pedido): void {
+        this.pedidos.push(pedido);
+        console.log(`Pedido registrado para a mesa ${this.numero}.`);
+    }
+}
 }
