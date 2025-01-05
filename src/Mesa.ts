@@ -1,8 +1,10 @@
 export class Mesa {
-    private numero:number
-    private disponibilidade: boolean=true;
+    private numero: number
+    private disponibilidade: boolean = true;
+    private pedidos: Pedido[] = [];
 
-    constuctor(disponibilidade:boolean) {
+    constuctor(numero: number, disponibilidade: boolean) {
+        this.numero = numero;
         this.disponibilidade = disponibilidade;
     }
      registrar_pedido(pedido: Pedido): void {
