@@ -3,9 +3,9 @@ export class Prato {
     private nome:string
     private preco:number
 
-    constructor(){
-
-    }
-
-    
+    constructor(quantidade: number, nome: string, preco: number){
+        this.quantidade = quantidade;
+        this.nome = nome; 
+        this.preco= preco;
+    }  
 }
