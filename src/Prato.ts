@@ -1,10 +1,10 @@
 export class Prato {
-    private id_Prato: int;
+    private quantidade: number;
     private nome:string
     private preco:number
 
-    constructor(id_Prato: int, nome: string, preco: number){
-        this.id_Prato= int;
+    constructor(quantidade:number, nome: string, preco: number){
+        this.quantidade = quantidade;
         this.nome = nome; 
         this.preco= preco;
     }  
