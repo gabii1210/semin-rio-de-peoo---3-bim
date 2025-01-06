@@ -4,6 +4,7 @@ export class Garcom{
     private taxa:number
 
     constructor(nome: string, disponibilidade: boolean, taxa: number){ 
+        this id_cliente= int
         this.nome = nome;
         this.disponibilidade = disponibilidade;
         this.taxa = taxa;
