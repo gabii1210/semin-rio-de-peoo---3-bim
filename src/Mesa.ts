@@ -1,9 +1,11 @@
 export class Mesa {
-    private numero: number
+    private id_Mesa: int;
+    private numero: number;
     private disponibilidade: boolean = true;
     private pedidos: Pedido[] = [];
 
-    constuctor(numero: number, disponibilidade: boolean) {
+    constuctor(id_Mesa:int, numero: number, disponibilidade: boolean) {
+        this.id_Mesa = int;
         this.numero = numero;
         this.disponibilidade = disponibilidade;
     }
