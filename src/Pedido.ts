@@ -1,8 +1,10 @@
 import { Prato } from "./Prato";
 export class Pedido {
+    id_Pedido = int,
     itens: Prato [] = [];
 
-    constructor(itens: Prato []){
+    constructor(id_Pedido: int, itens: Prato []){
+        this.id_Pedido = int;
         this.itens = itens;
     }
 
