@@ -5,7 +5,7 @@ export class Garcom{
     private id_Garcom = int
 
     constructor(id_Garcom:int, nome: string, disponibilidade: boolean, taxa: number){ 
-        this.id_Garcom= int
+        this.id_Garcom= int;
         this.nome = nome;
         this.disponibilidade = disponibilidade;
         this.taxa = taxa;
