@@ -4,13 +4,12 @@ import { Pedido } from "./Pedido"
 
 export class Cliente{
     private nome:string
-    private id_cliente: int
     private telefone:number
     private pedido:Pedido
     private mesa:Mesa
     private garcom: Garcom
 
-    constructor(id_Cliente: int, nome: string, telefone:number, pedido: Pedido, mesa: Mesa, garcom: Garcom){
+    constructor(nome: string, telefone:number, pedido: Pedido, mesa: Mesa, garcom: Garcom){
         this.telefone = telefone;
         this.pedido = pedido;
         this.mesa = mesa;
